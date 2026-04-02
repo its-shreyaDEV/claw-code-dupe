@@ -1,41 +1,52 @@
+⚡ Claw Code: The 4 AM Clean-Room Reimplementation
+🌪️ The "Before Sunrise" Sprint
+On March 31, 2026, a sudden exposure of the "Claw Code" architecture sent waves through the dev community. Recognizing a unique opportunity for Harness Engineering research, I embarked on a high-stakes engineering sprint.
 
-Claw Code: Systems-Level Agent Harness & Reimplementation
-🎯 Executive Summary
-This project is a sophisticated clean-room reimplementation of an industry-standard agent harness. Driven by a deep interest in how agentic systems manage tool-wiring and runtime context, I transitioned an existing architectural snapshot into a high-performance Rust workspace.
+By sunrise, I had successfully executed a clean-room implementation, porting the core architectural patterns from the exposed snapshot into a functional Python tree—ensuring all logic was original, legal, and optimized for research.
 
-The goal was twofold:
+🏗️ Systems Engineering & Architecture
+This repository has since evolved into a sophisticated multi-language workspace focused on agentic runtime safety and performance.
 
-Performance Engineering: Porting core logic to Rust to deliver a faster, memory-safe harness runtime.
+🦀 The Rust Core (/rust)
+The definitive, high-performance systems-language port.
 
-Architectural Research: Documenting and verifying the parity of complex agent workflows using AI-assisted orchestration tools.
+Memory-Safe Harness: A complete rewrite of the session state and tool-wiring logic using Rust for zero-cost abstractions.
 
-🚀 Key Technical Achievements
-Rust Systems Porting: Engineered a multi-crate workspace (api-client, runtime, claw-cli) to handle high-concurrency MCP orchestration and session state management.
+Crate Ecosystem: Modularized into api-client (OAuth/Streaming), runtime (MCP Orchestration), and claw-cli (Interactive REPL).
 
-Clean-Room Methodology: Developed a functional Python reference layer to capture architectural patterns and verify logic without relying on proprietary source code.
+High Concurrency: Designed to handle massive token throughput with minimal latency.
 
-Automated Parity Auditing: Implemented a parity-audit suite in Python to mirror subsystem entry points and command inventories, ensuring functional equivalence across languages.
+🐍 The Python Reference (/src)
+The architectural blueprint.
 
-Advanced AI Orchestration: Utilized oh-my-codex (OmX) and oh-my-opencode (OmO) for $team-mode architectural review and $ralph-mode execution loops, demonstrating a cutting-edge AI-assisted development workflow.
+Parity Auditing: A custom suite that mirrors subsystem entry points to ensure functional equivalence without proprietary dependencies.
 
-📁 Workspace Overview
-The repository is structured to separate high-level logic from systems-level execution:
+Rapid Prototyping: Used for validating task-management logic before lower-level implementation in Rust.
 
-rust/crates/: The core systems layer. Includes an interactive REPL (claw-cli), plugin models, and an HTTP/SSE server implementation using Axum.
+📰 Recognized Expertise
+My deep-dive into agent systems isn't just a hobby—it's been recognized on a global stage. As featured in The Wall Street Journal (March 21, 2026), my work as a power user and researcher in the "Trillion Dollar Race to Automate" highlights a unique perspective on tool orchestration and runtime context management.
 
-src/: The Python reference workspace used for rapid prototyping of task-management and query-engine logic.
+🛠️ Advanced AI Orchestration
+This project serves as a masterclass in AI-Assisted Systems Engineering. The entire porting and hardening workflow was driven by:
 
-tests/: A comprehensive verification suite ensuring the Rust port maintains parity with the initial architectural specifications.
+oh-my-codex (OmX): Used in $team mode for parallel architectural review.
 
-📰 Industry Context & Backstory
-My work in harness engineering and agent system exploration has been recognized for its scale. As documented in The Wall Street Journal (March 21, 2026), I have been an active researcher in the "Trillion Dollar Race to Automate," exploring the strengths and weaknesses of different AI lab infrastructures.
+oh-my-opencode (OmO): Leveraged for implementation acceleration and verification.
 
-When the "Claw Code" architecture was exposed, I recognized a unique opportunity to study and reimplement its harness patterns. This project represents a "before-sunrise" engineering sprint where I ported the system's core features to ensure a community-driven, open-source reference existed for fellow researchers.
-
-🛠 Installation & Usage
-To build the definitive high-performance version:
+🚀 Getting Started
+Build the Systems-Level Runtime:
 
 Bash
 cd rust
 cargo build --release
 ./target/release/claw-cli
+Run the Parity Audit:
+
+Bash
+python3 -m src.main parity-audit
+💬 Let's Connect
+I am deeply interested in Harness Engineering, LLM Runtimes, and Systems Architecture.
+
+Discord: Join the instructkr Community
+
+Support the Research: Sponsor @instructkr on GitHub
