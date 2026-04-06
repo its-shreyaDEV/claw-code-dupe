@@ -43,9 +43,15 @@ cargo build --release
 Bash
 python3 -m src.main parity-audit
 
+---
 
+## 💬 Let's Connect
 
-###💬 Let's Connect
-I am actively exploring the frontiers of Harness Engineering, LLM Runtimes, and Systems Architecture.
-Community: Join the instructkr DiscordSupport: Sponsor @instructkr on GitHubDisclaimer: This repository is an independent research project.
-It is not affiliated with, endorsed by, or maintained by the original authors of the exposed code snapshots.
+I am actively exploring the frontiers of **Harness Engineering**, **LLM Runtimes**, and **Systems Architecture**.
+
+* **Community:** [Join the instructkr Discord](https://discord.gg/instructkr) — The premier hub for agent workflow research.
+* **Support:** [Sponsor @instructkr on GitHub](https://github.com/sponsors/instructkr) to support continued open-source engineering.
+
+---
+
+> **Disclaimer:** This repository is an independent **research project**. It is not affiliated with, endorsed by, or maintained by the original authors of the exposed code snapshots. All reimplementations were performed via **clean-room methodology** for educational purposes.
